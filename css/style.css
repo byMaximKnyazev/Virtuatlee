@@ -53,6 +53,7 @@ html {
 body {
 	line-height: 1;
 	font-family: 'Imprima', sans-serif;
+	font-weight: 400;
 }
 
 .wrapper {
@@ -88,4 +89,41 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
+}
+
+/* Общие стили */
+
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1455px;
+}
+
+.flex {
+	display: flex;
+}
+
+/* Header */
+.header {
+	padding: 20px 0;
+}
+
+.header__container {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav-item:not(:last-child) {
+	margin-right: 25px;
+}
+
+.header__nav-link {
+	color: #000;
+	font-family: Imprima;
+	font-size: 16px;
+	transition: border-bottom 0.3s ease-in-out;
+}
+
+.header__nav-link:hover {
+	border-bottom: 1px solid #000;
 }

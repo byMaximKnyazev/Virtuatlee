@@ -1,0 +1,20 @@
+@media (max-width: 770px) {
+  .header__nav-list {
+    flex-direction: column;
+  }
+  .header__nav-item {
+    margin-right: 0;
+  }
+  .header__nav-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .header__container {
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+}
