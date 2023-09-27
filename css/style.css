@@ -103,6 +103,19 @@ body {
 	display: flex;
 }
 
+.btn {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #4265DF;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+	background-color: #0c3ded;
+}
+
 /* Header */
 .header {
 	padding: 20px 0;
@@ -121,9 +134,38 @@ body {
 	color: #000;
 	font-family: Imprima;
 	font-size: 16px;
-	transition: border-bottom 0.3s ease-in-out;
+	text-transform: uppercase;
+	transition: border 0.3s ease-in-out;
 }
 
 .header__nav-link:hover {
 	border-bottom: 1px solid #000;
+}
+
+/* Hero */
+.hero {
+	padding: 262px 0 176px;
+	background: url('../img/hero/hero-bg.jpg') top center / cover no-repeat;
+}
+
+.hero__container {
+	text-align: center;
+}
+
+.hero__title {
+	margin-bottom: 15px;
+	color: #FFF;
+	font-family: JejuGothic;
+	font-size: 50px;
+}
+
+.hero__descr {
+	margin-bottom: 15px;
+	color: #FFF;
+	font-size: 30px;
+}
+
+.hero__btn {
+	padding: 16px 44px;
+	font-size: 12px;
 }

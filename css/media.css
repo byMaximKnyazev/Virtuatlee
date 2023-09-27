@@ -1,12 +1,28 @@
+@media (max-width: 1024px) {
+  .hero {
+    padding: 100px 0 50px;
+  }
+}
+
 @media (max-width: 770px) {
   .header__nav-list {
     flex-direction: column;
   }
+
   .header__nav-item {
     margin-right: 0;
   }
+
   .header__nav-item:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .hero__title {
+    font-size: 30px;
+  }
+
+  .hero__descr {
+    font-size: 16px;
   }
 }
 
@@ -14,7 +30,16 @@
   .header__container {
     flex-direction: column;
   }
+
   .header__logo {
     margin-bottom: 20px;
+  }
+
+  .hero {
+    padding-top: 50px;
+  }
+
+  .hero__btn {
+    padding: 10px 30px;
   }
 }
