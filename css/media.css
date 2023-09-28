@@ -24,6 +24,9 @@
   .services__item:not(:nth-child(3n)) {
     margin-right: 40px;
   }
+  .recent__item:not(:last-child) {
+    margin-right: 55px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -45,6 +48,24 @@
 
   .hero__descr {
     font-size: 16px;
+  }
+  .recent {
+    padding: 65px 0;
+  }
+  .recent__descr {
+    margin-bottom: 47px;
+  }
+  .recent__item {
+    padding: 15px 15px 20px;
+  }
+  .recent__item-img {
+    margin-bottom: 15px;
+  }
+  .recent__item-subtitle {
+    font-size: 16px;
+  }
+  .recent__item-text {
+    font-size: 14px;
   }
 }
 
@@ -96,6 +117,16 @@
 
   .analysis__btn {
     width: 100%;
+  }
+  .recent__list {
+    flex-wrap: wrap;
+  }
+  .recent__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .recent__item {
+    min-width: 100%;
   }
 }
 
