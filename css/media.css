@@ -73,6 +73,30 @@
   .services__item:not(:nth-child(2n)) {
     margin-right: 20px;
   }
+
+  .analysis {
+    padding: 100px 0;
+  }
+}
+
+@media (max-width: 620px) {
+  .analysis__form {
+    flex-direction: column;
+  }
+
+  .analysis__form-block {
+    margin-right: 0;
+    margin-bottom: 21px;
+    min-width: 100%;
+  }
+
+  .analysis__form-input {
+    min-width: 100%;
+  }
+
+  .analysis__btn {
+    width: 100%;
+  }
 }
 
 @media (max-width: 529px) {

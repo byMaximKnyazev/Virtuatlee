@@ -268,3 +268,48 @@ body {
 .services__btn-o:hover {
 	color: #FFF;
 }
+
+/* Analysis */
+.analysis {
+	padding: 166px 0;
+	background: url('../img/analysis/analisys-bg.jpg') top center / cover no-repeat;
+}
+
+.analysis__container {
+	text-align: center;
+}
+
+.analysis__title {
+	margin-bottom: 25px;
+	color: #FFF;
+}
+
+.analysis__descr {
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+.analysis__form {
+	justify-content: center;
+	align-items: center;
+}
+
+.analysis__form-block {
+	margin-right: 21px;
+}
+
+.analysis__form-input {
+	padding: 14px 15px 14px 31px;
+	max-width: 303px;
+	color: #766D6D;
+	font-size: 15px;
+}
+
+.analysis__form-input::placeholder {
+	color: #766D6D;
+	font-size: 15px;
+}
+
+.analysis__btn {
+	padding: 17px 40px 16px 41px;
+}
