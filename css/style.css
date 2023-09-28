@@ -358,3 +358,61 @@ body {
 	color: #FFF;
 	font-size: 20px;
 }
+
+/* Mission */
+.mission {
+	padding-top: 130px;
+}
+
+.mission__container {
+	max-width: 1331px;
+}
+
+.mission__left {
+	margin-right: 18px;
+	max-width: 50%;
+}
+
+.mission__descr {
+	margin-bottom: 42px;
+}
+
+.mission__text {
+	margin-bottom: 35px;
+	color: #766D6D;
+	font-size: 30px;
+}
+
+.mission__item {
+	position: relative;
+	padding-left: 62px;
+}
+
+.mission__item:not(:last-child) {
+	margin-bottom: 45px;
+}
+
+.mission__item::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: -10px;
+	background-image: url('../img/mission/ok-icon.svg');
+	width: 42px;
+	height: 42px;
+}
+
+.mission__item-subtitle {
+	margin-bottom: 10px;
+	color: #221717;
+	font-size: 32px;
+}
+
+.mission__item-text {
+	color: #766D6D;
+	font-size: 30px;
+}
+
+.mission__right {
+	max-width: 50%;
+}
