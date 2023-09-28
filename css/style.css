@@ -416,3 +416,38 @@ body {
 .mission__right {
 	max-width: 50%;
 }
+
+/* Subscribe */
+.subscribe {
+	padding: 240px 0 180px;
+	background: #0B1125 url('../img/subscribe/dott-bg.png') center center / cover no-repeat;
+}
+
+.subscribe__container {
+	text-align: center;
+}
+
+.subscribe__title {
+	margin-bottom: 25px;
+	color: #FFF;
+	font-size: 50px;
+}
+
+.subscribe__form {
+	justify-content: center;
+	align-items: center;
+}
+
+.subscribe__form-block {
+	margin-right: 21px;
+}
+
+.subscribe__form-input {
+	padding: 13px 15px 14px 31px;
+	width: 303px;
+	height: 46px;
+}
+
+.subscribe__btn {
+	padding: 19px 30px 18px;
+}

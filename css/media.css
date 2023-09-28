@@ -37,6 +37,9 @@
   .mission {
     padding-top: 30px;
   }
+  .subscribe {
+    padding: 140px 0 80px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -76,6 +79,9 @@
   }
   .recent__item-text {
     font-size: 14px;
+  }
+  .subscribe {
+    padding: 80px 0 40px;
   }
 }
 
@@ -168,6 +174,23 @@
 
   .services__item:not(:nth-child(2n)) {
     margin-right: 0;
+  }
+  .subscribe {
+    padding-top: 40px;
+  }
+  .subscribe__form {
+    flex-wrap: wrap;
+  }
+  .subscribe__form-block {
+    margin-right: 0;
+    min-width: 100%;
+  }
+  .subscribe__form-input {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .subscribe__btn {
+    width: 100%;
   }
 }
 
